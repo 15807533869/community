@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8ca13fc-d0bd-4502-9868-547181316534" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zhuowentao &lt;381074137@qq.com&gt;" />
+        <option value="15807533869" />
+        <option value="morty" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="/usr/local/maven/repository" />
+        <option name="mavenHome" value="/usr/local/maven/apache-maven-3.8.4" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="/usr/local/maven/apache-maven-3.8.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LfvtGIYpb8Og3CSj4qtEzRvjZS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/morty/IdeaProjects/workspace/community/src/main/resources/mapper&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2659975&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;82df41632da476065ce2997900554442&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itao.community.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CommunityApplication">
+    <configuration name="ElasticsearchTests.highlightQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itao.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itao.community" />
+      <option name="MAIN_CLASS_NAME" value="com.itao.community.ElasticsearchTests" />
+      <option name="METHOD_NAME" value="highlightQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTests.testBitMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itao.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itao.community" />
+      <option name="MAIN_CLASS_NAME" value="com.itao.community.RedisTests" />
+      <option name="METHOD_NAME" value="testBitMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTests.testBitMapOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itao.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itao.community" />
+      <option name="MAIN_CLASS_NAME" value="com.itao.community.RedisTests" />
+      <option name="METHOD_NAME" value="testBitMapOperation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTests.testHyperLogLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itao.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itao.community" />
+      <option name="MAIN_CLASS_NAME" value="com.itao.community.RedisTests" />
+      <option name="METHOD_NAME" value="testHyperLogLog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTests.testHyperLogLogUnion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itao.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itao.community" />
+      <option name="MAIN_CLASS_NAME" value="com.itao.community.RedisTests" />
+      <option name="METHOD_NAME" value="testHyperLogLogUnion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="community" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itao.community.CommunityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RedisTests.testBitMapOperation" />
+        <item itemvalue="JUnit.RedisTests.testBitMap" />
+        <item itemvalue="JUnit.RedisTests.testHyperLogLogUnion" />
+        <item itemvalue="JUnit.RedisTests.testHyperLogLog" />
+        <item itemvalue="JUnit.ElasticsearchTests.highlightQuery" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8ca13fc-d0bd-4502-9868-547181316534" name="Changes" comment="" />
+      <created>1676275165685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676275165685</updated>
+      <workItem from="1676275167558" duration="3191000" />
+      <workItem from="1676279274454" duration="16290000" />
+      <workItem from="1676346685769" duration="11933000" />
+      <workItem from="1676368152885" duration="2285000" />
+      <workItem from="1676370819390" duration="16771000" />
+      <workItem from="1676434511072" duration="625000" />
+      <workItem from="1676438299849" duration="2492000" />
+      <workItem from="1676447215251" duration="105000" />
+      <workItem from="1676447327076" duration="6323000" />
+      <workItem from="1676466934980" duration="1144000" />
+      <workItem from="1676468090485" duration="14224000" />
+      <workItem from="1676524579613" duration="2861000" />
+      <workItem from="1676560142230" duration="5491000" />
+      <workItem from="1676606507952" duration="2739000" />
+      <workItem from="1676612595905" duration="13304000" />
+      <workItem from="1676629173734" duration="8161000" />
+      <workItem from="1676724800061" duration="11583000" />
+      <workItem from="1676790067790" duration="11977000" />
+      <workItem from="1676831694945" duration="1205000" />
+      <workItem from="1676879233391" duration="8091000" />
+      <workItem from="1676893888556" duration="12660000" />
+      <workItem from="1676916398548" duration="148000" />
+      <workItem from="1676916552594" duration="1040000" />
+      <workItem from="1676960793548" duration="1949000" />
+      <workItem from="1676964467045" duration="459000" />
+      <workItem from="1676966694078" duration="600000" />
+      <workItem from="1676982130659" duration="1973000" />
+      <workItem from="1676992374005" duration="175000" />
+      <workItem from="1677070270238" duration="3839000" />
+      <workItem from="1677123955704" duration="26465000" />
+      <workItem from="1677223077301" duration="3836000" />
+      <workItem from="1677227303929" duration="16185000" />
+      <workItem from="1677296404219" duration="26549000" />
+      <workItem from="1677396696052" duration="17364000" />
+      <workItem from="1677469536715" duration="1286000" />
+      <workItem from="1677476053262" duration="25056000" />
+      <workItem from="1677562950688" duration="21644000" />
+      <workItem from="1677641369292" duration="19085000" />
+      <workItem from="1677684749287" duration="10770000" />
+      <workItem from="1677753213300" duration="81000" />
+      <workItem from="1677753304659" duration="11527000" />
+      <workItem from="1677781531767" duration="7673000" />
+      <workItem from="1677859598576" duration="22816000" />
+      <workItem from="1677940142203" duration="6461000" />
+      <workItem from="1677954831615" duration="39000" />
+      <workItem from="1677954877863" duration="20116000" />
+      <workItem from="1678075236605" duration="19763000" />
+      <workItem from="1678123851384" duration="1879000" />
+      <workItem from="1678169406177" duration="21419000" />
+      <workItem from="1678203974810" duration="48000" />
+      <workItem from="1678204030025" duration="3158000" />
+    </task>
+    <task id="LOCAL-00001" summary="test1">
+      <created>1676468289155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676468289155</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完成统计">
+      <created>1678257690611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678257690611</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test1" />
+    <MESSAGE value="完成统计" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成统计" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

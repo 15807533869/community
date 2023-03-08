@@ -1,0 +1,21 @@
+
+o
+?src/main/java/com/itao/community/dao/AlphaDaoHibernateImpl.java,6/2/6268956eb492dee1b51798d4b95e0de892aaaf74
+b
+2src/main/java/com/itao/community/dao/AlphaDao.java,4/e/4e35594f071fb3732d05f81d8475cf9b7109d734
+m
+=src/main/java/com/itao/community/dao/AlphaDaoMyBatisImpl.java,f/3/f39e464e0381421ff1c2ab3855fb7a3674f3c4c4
+o
+?src/test/java/com/itao/community/CommunityApplicationTests.java,f/c/fc6ed4f560a9bd0a5b280f199b6bfb720c1f12da
+a
+1src/main/java/com/itao/community/entity/Page.java,c/3/c3465de5ccbb09db173111081ceaaa079310bc78
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+d
+4src/main/java/com/itao/community/dao/UserMapper.java,a/f/af7e0676e9d61b0c79d9ddde914dee0c4d178a5b
+a
+1src/main/java/com/itao/community/entity/User.java,8/7/87f84c429677f29462e10295264f6ddc66171824
+h
+8src/main/java/com/itao/community/config/AlphaConfig.java,e/1/e1e5a24a3ee23c1d88b9a23aca8f0ae67473d0fc
+`
+0src/test/java/com/itao/community/LoggerTest.java,0/6/061f80f4034a4e300a3462459dbd4e85a3bf3c9e
