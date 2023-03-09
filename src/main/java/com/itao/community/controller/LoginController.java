@@ -104,7 +104,7 @@ public class LoginController implements CommunityConstant {
 //        session.setAttribute("kaptcha", text);
 
         // 验证码的归属
-        String kaptchaOwner = CommunityUtil.gennerateUUID();
+        String kaptchaOwner = CommunityUtil.generateUUID();
         Cookie cookie = new Cookie("kaptchaOwner", kaptchaOwner);
         cookie.setMaxAge(60);
         cookie.setPath(contextPath);

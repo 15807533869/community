@@ -4,7 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8ca13fc-d0bd-4502-9868-547181316534" name="Changes" comment="" />
+    <list default="true" id="a8ca13fc-d0bd-4502-9868-547181316534" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/AlphaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/AlphaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/DiscussPostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/DiscussPostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/LikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/LikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/dao/DiscussPostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/dao/DiscussPostMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/event/EventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/event/EventConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/service/AlphaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/service/AlphaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/service/DiscussPostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/service/DiscussPostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/util/CommunityConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/util/CommunityConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/util/CommunityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/util/CommunityUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itao/community/util/RedisKeyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itao/community/util/RedisKeyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/discusspost-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/discusspost-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/discuss.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/discuss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/site/discuss-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/site/discuss-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/itao/community/ElasticsearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itao/community/ElasticsearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/itao/community/MapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itao/community/MapperTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/controller/AlphaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/controller/AlphaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/controller/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/controller/DiscussPostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/controller/DiscussPostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/controller/LikeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/controller/LikeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/dao/DiscussPostMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/dao/DiscussPostMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/event/EventConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/event/EventConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/service/AlphaService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/service/AlphaService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/service/AlphaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/service/AlphaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/service/DiscussPostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/service/DiscussPostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/util/CommunityConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/util/CommunityConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/util/CommunityUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/util/CommunityUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itao/community/util/RedisKeyUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itao/community/util/RedisKeyUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/discusspost-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/discusspost-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/discuss.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/discuss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/site/discuss-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/site/discuss-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/itao/community/ElasticsearchTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/itao/community/ElasticsearchTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/itao/community/MapperTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/itao/community/MapperTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +151,20 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.CommunityApplication">
-    <configuration name="ElasticsearchTests.highlightQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itao.community.WkTest" />
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itao.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuartzTests.testDeleteJob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="community" />
       <extension name="coverage">
         <pattern>
@@ -110,14 +173,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.itao.community" />
-      <option name="MAIN_CLASS_NAME" value="com.itao.community.ElasticsearchTests" />
-      <option name="METHOD_NAME" value="highlightQuery" />
+      <option name="MAIN_CLASS_NAME" value="com.itao.community.QuartzTests" />
+      <option name="METHOD_NAME" value="testDeleteJob" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTests.testBitMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadPoolTests.testThreadPoolTaskExecutorSimple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="community" />
       <extension name="coverage">
         <pattern>
@@ -126,14 +189,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.itao.community" />
-      <option name="MAIN_CLASS_NAME" value="com.itao.community.RedisTests" />
-      <option name="METHOD_NAME" value="testBitMap" />
+      <option name="MAIN_CLASS_NAME" value="com.itao.community.ThreadPoolTests" />
+      <option name="METHOD_NAME" value="testThreadPoolTaskExecutorSimple" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTests.testBitMapOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadPoolTests.testThreadPoolTaskScheduler (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="community" />
       <extension name="coverage">
         <pattern>
@@ -142,14 +205,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.itao.community" />
-      <option name="MAIN_CLASS_NAME" value="com.itao.community.RedisTests" />
-      <option name="METHOD_NAME" value="testBitMapOperation" />
+      <option name="MAIN_CLASS_NAME" value="com.itao.community.ThreadPoolTests" />
+      <option name="METHOD_NAME" value="testThreadPoolTaskScheduler" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisTests.testHyperLogLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadPoolTests.testThreadPoolTaskSchedulerSimple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="community" />
       <extension name="coverage">
         <pattern>
@@ -158,24 +221,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.itao.community" />
-      <option name="MAIN_CLASS_NAME" value="com.itao.community.RedisTests" />
-      <option name="METHOD_NAME" value="testHyperLogLog" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisTests.testHyperLogLogUnion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="community" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itao.community.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itao.community" />
-      <option name="MAIN_CLASS_NAME" value="com.itao.community.RedisTests" />
-      <option name="METHOD_NAME" value="testHyperLogLogUnion" />
+      <option name="MAIN_CLASS_NAME" value="com.itao.community.ThreadPoolTests" />
+      <option name="METHOD_NAME" value="testThreadPoolTaskSchedulerSimple" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RedisTests.testBitMapOperation" />
-        <item itemvalue="JUnit.RedisTests.testBitMap" />
-        <item itemvalue="JUnit.RedisTests.testHyperLogLogUnion" />
-        <item itemvalue="JUnit.RedisTests.testHyperLogLog" />
-        <item itemvalue="JUnit.ElasticsearchTests.highlightQuery" />
+        <item itemvalue="Application.WkTest" />
+        <item itemvalue="JUnit.QuartzTests.testDeleteJob" />
+        <item itemvalue="JUnit.ThreadPoolTests.testThreadPoolTaskSchedulerSimple" />
+        <item itemvalue="JUnit.ThreadPoolTests.testThreadPoolTaskExecutorSimple" />
+        <item itemvalue="JUnit.ThreadPoolTests.testThreadPoolTaskScheduler (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +303,8 @@
       <workItem from="1678123851384" duration="1879000" />
       <workItem from="1678169406177" duration="21419000" />
       <workItem from="1678203974810" duration="48000" />
-      <workItem from="1678204030025" duration="3158000" />
+      <workItem from="1678204030025" duration="7619000" />
+      <workItem from="1678274778298" duration="29618000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1676468289155</created>
@@ -272,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678257690611</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成统计">
+      <created>1678257754336</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678257754336</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

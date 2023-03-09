@@ -158,7 +158,7 @@ public class AlphaController {
     @ResponseBody
     public String setCookie(HttpServletResponse response) {
         // 创建Cookie
-        Cookie cookie = new Cookie("code", CommunityUtil.gennerateUUID());
+        Cookie cookie = new Cookie("code", CommunityUtil.generateUUID());
         // 设置cookie生效的范围
         cookie.setPath("/community/alpha");
         // 设置cookie的生存时间

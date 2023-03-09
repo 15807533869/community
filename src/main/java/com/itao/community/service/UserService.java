@@ -92,11 +92,11 @@ public class UserService implements CommunityConstant {
         }
 
         // 注册用户
-        user.setSalt(CommunityUtil.gennerateUUID().substring(0, 5));
+        user.setSalt(CommunityUtil.generateUUID().substring(0, 5));
         user.setPassword(CommunityUtil.md5(user.getPassword() + user.getSalt()));
         user.setType(0);
         user.setStatus(0);
-        user.setActivationCode(CommunityUtil.gennerateUUID());
+        user.setActivationCode(CommunityUtil.generateUUID());
         user.setHeaderUrl(String.format("http://images.nowcoder.com/head/%dt.png", new Random().nextInt(1000)));
         user.setCreateTime(new Date());
         userMapper.insertUser(user);
@@ -162,7 +162,7 @@ public class UserService implements CommunityConstant {
         // 生成登录凭证
         LoginTicket loginTicket = new LoginTicket();
         loginTicket.setUserId(user.getId());
-        loginTicket.setTicket(CommunityUtil.gennerateUUID());
+        loginTicket.setTicket(CommunityUtil.generateUUID());
         loginTicket.setStatus(0);
         loginTicket.setExpired(new Date(System.currentTimeMillis() + expiredSeconds * 1000));
 //        loginTicketMapper.insertLoginTicket(loginTicket);

@@ -37,6 +37,21 @@ function setTop() {
         }
     )
 }
+// function setTop() {
+//     $.post(
+//         CONTEXT_PATH + "/discuss/top",
+//         {"id":$("#postId").val()},
+//         function(data) {
+//             data = $.parseJSON(data);
+//             if(data.code == 0) {
+//                 $("#topBtn").text(data.type == 1 ? '取消置顶':'置顶');
+//             } else {
+//                 alert(data.msg);
+//             }
+//         }
+//     );
+// }
+
 
 // 加精
 function setWonderful() {

@@ -9,7 +9,9 @@ import com.itao.community.service.UserService;
 import com.itao.community.util.CommunityConstant;
 import com.itao.community.util.CommunityUtil;
 import com.itao.community.util.HostHolder;
+import com.itao.community.util.RedisKeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -45,6 +47,9 @@ public class DiscussPostController implements CommunityConstant {
     @Autowired
     private EventProducer eventProducer;
 
+    @Autowired
+    private RedisTemplate redisTemplate;
+
     @RequestMapping(path = "/add", method = RequestMethod.POST)
     @ResponseBody
     public String addDiscussPost(String title, String content) {
@@ -67,6 +72,11 @@ public class DiscussPostController implements CommunityConstant {
                 .setEntityType(ENTITY_TYPE_POST)
                 .setEntityId(post.getId());
         eventProducer.fireEvent(event);
+
+        // 计算帖子分数
+        // 将点赞过的帖子id存入set去重的redis集合------like()
+        String redisKey = RedisKeyUtil.getPostScoreKey();
+        redisTemplate.opsForSet().add(redisKey, post.getId());
 
         // 报错的情况,将来统一处理.
         return CommunityUtil.getJSONString(0, "发布成功!");
@@ -160,7 +170,16 @@ public class DiscussPostController implements CommunityConstant {
     @RequestMapping(path = "/top", method = RequestMethod.POST)
     @ResponseBody
     public String setTop(int id) {
-        discussPostService.updateType(id, 1);
+//        discussPostService.updateType(id, 1);
+
+        DiscussPost post = discussPostService.findDiscussPostById(id);
+        // 获取置顶状态，1为置顶，0为正常状态,1^1=0 0^1=1
+        int type = post.getType() ^ 1;
+        discussPostService.updateType(id, type);
+        // 返回结果给JS异步请求
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("type", type);
+
 
         // 触发发帖事件
         Event event = new Event()
@@ -186,6 +205,11 @@ public class DiscussPostController implements CommunityConstant {
                 .setEntityType(ENTITY_TYPE_POST)
                 .setEntityId(id);
         eventProducer.fireEvent(event);
+
+        // 计算帖子分数
+        // 将点赞过的帖子id存入set去重的redis集合------like()
+        String redisKey = RedisKeyUtil.getPostScoreKey();
+        redisTemplate.opsForSet().add(redisKey, id);
 
         return CommunityUtil.getJSONString(0);
     }

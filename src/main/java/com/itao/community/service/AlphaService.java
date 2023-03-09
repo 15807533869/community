@@ -6,7 +6,11 @@ import com.itao.community.dao.UserMapper;
 import com.itao.community.entity.DiscussPost;
 import com.itao.community.entity.User;
 import com.itao.community.util.CommunityUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.TransactionDefinition;
 import org.springframework.transaction.TransactionStatus;
@@ -27,6 +31,8 @@ import java.util.Date;
 @Service
 //@Scope("prototype")
 public class AlphaService {
+
+    private static final Logger logger = LoggerFactory.getLogger(AlphaService.class);
 
     @Autowired
     private AlphaDao alphaDao;
@@ -67,7 +73,7 @@ public class AlphaService {
         // 新增用户
         User user = new User();
         user.setUsername("alpha");
-        user.setSalt(CommunityUtil.gennerateUUID().substring(0, 5));
+        user.setSalt(CommunityUtil.generateUUID().substring(0, 5));
         user.setPassword(CommunityUtil.md5("123" + user.getSalt()));
         user.setEmail("alpha@qq.com");
         user.setHeaderUrl("http://image.nowcoder.com/head/99t,png");
@@ -97,7 +103,7 @@ public class AlphaService {
                 // 新增用户
                 User user = new User();
                 user.setUsername("beta");
-                user.setSalt(CommunityUtil.gennerateUUID().substring(0, 5));
+                user.setSalt(CommunityUtil.generateUUID().substring(0, 5));
                 user.setPassword(CommunityUtil.md5("123" + user.getSalt()));
                 user.setEmail("beta@qq.com");
                 user.setHeaderUrl("http://image.nowcoder.com/head/999t,png");
@@ -117,6 +123,17 @@ public class AlphaService {
                 return "ok";
             }
         });
+    }
+
+    // 可以让该方法在多线程环境下，被异步的调用
+    @Async
+    public void execute1() {
+        logger.debug("execute1");
+    }
+
+//    @Scheduled(initialDelay = 10000, fixedRate = 1000)
+    public void execute2() {
+        logger.debug("execute2");
     }
 
 }
